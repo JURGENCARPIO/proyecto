@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1511939011 source:c:\mingw_dev_lib\juego\avion.cpp
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+
+1512023226 source:c:\mingw_dev_lib\juego\main.cpp
+	<iostream>
+	"NAVE.h"
+	"Nave_padre.h"
+	"AST.h"
+	"BALA.h"
+	<list>
+
+1512023006 c:\mingw_dev_lib\juego\include\nave.h
+	"Nave_padre.h"
+	"BALA.h"
+
+1512017868 c:\mingw_dev_lib\juego\include\nave_padre.h
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<stdlib.h>
+	<list>
+
+1512023216 source:c:\mingw_dev_lib\juego\src\nave.cpp
+	"NAVE.h"
+
+1512022716 source:c:\mingw_dev_lib\juego\src\nave_padre.cpp
+	"Nave_padre.h"
+
+1512020639 source:c:\mingw_dev_lib\juego\src\ast.cpp
+	"AST.h"
+
+1512020480 c:\mingw_dev_lib\juego\include\ast.h
+	"Nave_padre.h"
+	"NAVE.h"
+
+1512018418 c:\mingw_dev_lib\juego\include\bala.h
+	"Nave_padre.h"
+
+1512019164 source:c:\mingw_dev_lib\juego\src\bala.cpp
+	"BALA.h"
+
